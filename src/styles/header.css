@@ -41,7 +41,8 @@ header {
 }
 
 @media screen and (max-width: 1170px) {
-    #nav_list {
+    #nav_list,
+    #navbar .btn-default {
         display: none;
     }
     #mobile_btn {
