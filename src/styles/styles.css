@@ -9,12 +9,16 @@ body {
     background-color: #fff;
 }
 
+section {
+    padding: 28px 8%;
+}
+
 .btn-default {
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: rgb(156, 210, 241);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -24,5 +28,5 @@ body {
 }
 
 .btn-default:hover {
-    background-color: #f8d477;
+    background-color: rgb(84, 181, 238);
 }
