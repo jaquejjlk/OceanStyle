@@ -73,13 +73,9 @@
     }
 }
 
-@media screen and (max-width: 591px) {
-    #collections {
-        justify-content: center;
-    }
-
-    .collection {
-        width: 45%;
+@media screen and (max-width: 600px) {
+    .collection{
+        width: 100%;
     }
 
     #colecao .section-subtitle {
