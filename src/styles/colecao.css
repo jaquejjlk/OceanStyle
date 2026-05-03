@@ -46,3 +46,29 @@
     top: 10px;
     border-radius: 0px 37.5px 0px 42.5px;
 }
+
+.collection-description {
+    color: #434343;
+    text-align: center;
+}
+
+.collection-rate {
+    color: #e9a209;
+}
+
+.collection-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+    #collections{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .collection{
+        width: calc(50% - 12px);
+    }
+}
