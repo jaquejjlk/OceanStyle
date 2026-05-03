@@ -1,4 +1,4 @@
-#colecao {
+#moda {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     min-height: 100vh;
 }
 
-#collections {
+#fashions {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     margin-top: 32px;
 }
 
-.collection {
+.fashion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,12 +29,12 @@
     overflow: hidden;
 }
 
-.collection-image {
+.fashion-image {
     width: 100%;
     border-radius: 10px;
 }
 
-.collection-heart {
+.fashion-heart {
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -47,42 +47,42 @@
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
-.collection-description {
+.fashion-description {
     color: #434343;
     text-align: center;
 }
 
-.collection-rate {
+.fashion-rate {
     color: #e9a209;
 }
 
-.collection-price {
+.fashion-price {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
 @media screen and (max-width: 1170px) {
-    #collections{
+    #fashions{
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .collection{
+    .fashion{
         width: calc(50% - 12px);
     }
 }
 
 @media screen and (max-width: 600px) {
-    #collections {
+    #fashions {
         justify-content: center;
     }
 
-    .collection {
+    .fashion {
         width: 45%;
     }
     
-    #colecao .section-subtitle {
+    #moda .section-subtitle {
         text-align: center;
     }
 }
