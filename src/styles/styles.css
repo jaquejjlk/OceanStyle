@@ -18,7 +18,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(156, 210, 241);
+    background-color: #9cd2f1;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -28,5 +28,5 @@ section {
 }
 
 .btn-default:hover {
-    background-color: rgb(84, 181, 238);
+    background-color: #54b5ee;
 }
