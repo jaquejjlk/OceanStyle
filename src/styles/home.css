@@ -18,7 +18,7 @@
 }
 
 #cta .title span{
-    color: #9cd2f1;
+    color: rgb(156, 210, 241);
 }
 
 #cta .description {
@@ -62,7 +62,7 @@
 }
 
 .section-title {
-    color: #9cd2f1;
+    color: rgb(156, 210, 241);
     font-size: 1.563rem;
 }
 
@@ -98,11 +98,5 @@
         width: 100%;
         text-align: center;
         align-items: center;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #phone_button button {
-        display: none;
     }
 }
