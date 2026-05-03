@@ -74,11 +74,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    #collections {
-        justify-content: center;
+    .collection{
+        width: 100%;
     }
 
-    .collection {
-        width: 45%;
+    #colecao .section-subtitle {
+        text-align: center;
     }
 }
