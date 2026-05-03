@@ -74,7 +74,11 @@
 }
 
 @media screen and (max-width: 600px) {
+    #collections {
+         gap: 10px;
+    }
     .collection{
-        width: 100%;
+        width: calc(50% - 10px);
+        padding: 10px;
     }
 }
