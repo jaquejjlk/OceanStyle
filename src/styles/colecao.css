@@ -75,12 +75,10 @@
 
 @media screen and (max-width: 600px) {
     #collections {
-        gap: 15px;
-        padding: 0 10px;
+        justify-content: center;
     }
 
     .collection {
-        width: 90%;
-        max-width: 300px;
+        width: 45%;
     }
 }
