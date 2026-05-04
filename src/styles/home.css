@@ -2,6 +2,7 @@
     display: flex;
     min-height: calc(100vh - 91px);
     position: relative;
+    padding-top: 120px;
 }
 
 #cta {
@@ -87,7 +88,7 @@
 @media screen and (max-width: 1170px) {
     #home {
         min-height: 100%;
-        padding-top: 0px;
+        padding-top: 90px;
     }
 
     #banner,
