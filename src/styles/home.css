@@ -66,9 +66,9 @@
     font-size: 1.563rem;
 }
 
-.section-subtitle {
-    font-size: 2.1875rem;
-    color: #9cd2f1;
+.section-title span {
+    font-size: 1.875rem;
+    color: #ffff46;
 }
 
 #banner {
