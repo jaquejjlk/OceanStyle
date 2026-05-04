@@ -1,11 +1,3 @@
-#colecao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
 #collections {
     width: 100%;
     display: flex;
@@ -80,9 +72,5 @@
 
     .collection {
         width: 45%;
-    }
-    
-    #colecao .section-subtitle {
-        text-align: center;
     }
 }

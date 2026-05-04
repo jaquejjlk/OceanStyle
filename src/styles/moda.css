@@ -1,11 +1,3 @@
-#moda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
 #fashions {
     width: 100%;
     display: flex;
@@ -80,9 +72,5 @@
 
     .fashion {
         width: 45%;
-    }
-    
-    #moda .section-subtitle {
-        text-align: center;
     }
 }
