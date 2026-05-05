@@ -1,9 +1,3 @@
-@import url('header.css');
-@import url('home.css');
-@import url('novidades.css');
-@import url('moda.css');
-@import url('acessorios.css');
-@import url('footer.css');
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;

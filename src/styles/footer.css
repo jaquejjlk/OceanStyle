@@ -1,12 +1,12 @@
 footer {
     background-color: #1d1d1d;
-    padding: 15px;
-     margin-top: 150px;
+    padding: 30px;
+    margin-top: 150px;
 }
 
 #footer_items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 8%;
     align-items: center;
     color: #fff;
