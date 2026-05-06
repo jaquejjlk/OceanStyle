@@ -5,14 +5,25 @@
     padding-top: 120px;
 }
 
-#cta {
-    width: 40%;
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 5%;
+#banner {
+    width: 100%;
+    height: 90vh;
+    position: relative;
 }
 
+#banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cta {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: #fff;
+    max-width: 400px;
+}
 #cta .title{
     font-size: 4rem;
     color: #1d1d1d;
@@ -70,19 +81,6 @@
 .section-title span {
     font-size: 1.875rem;
     color: #34ac34;
-}
-
-#banner {
-    display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 70%;
-    z-index: 2;
-}
-
-#banner img {
-    height: 100%;
-    width: fit-content;
 }
 
 @media screen and (max-width: 1170px) {
